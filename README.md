@@ -11,19 +11,19 @@ for drawing using WebGL that seamlessly falls back to HTML5's canvas if needed. 
 原始工程没有example.min.js源代码，可以这样替代：
 将头部
 ```js
-	<link rel="stylesheet" href="css/leaflet.css"/>
+    <link rel="stylesheet" href="css/leaflet.css"/>
     <script src="js/example.min.js"></script>
 ```
 替换成
 ```js
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
-	<script src="https://pixijs.download/v4.8.9/pixi.min.js"></script>
-	<script src="js/L.PixiOverlay.js"></script>
+    <script src="https://pixijs.download/v4.8.9/pixi.min.js"></script>
+    <script src="js/L.PixiOverlay.js"></script>
 ```
 
 ## Features
