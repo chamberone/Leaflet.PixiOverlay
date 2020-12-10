@@ -1,12 +1,6 @@
 Leaflet.PixiOverlay
 ===================
 
-An overlay class for [Leaflet](http://leafletjs.com), a JS
-library for interactive maps.  Allows drawing overlay using [Pixi.js](http://www.pixijs.com/), a JavaScript library
-for drawing using WebGL that seamlessly falls back to HTML5's canvas if needed. Thanks to [Leaflet.D3SvgOverlay](https://github.com/teralytics/Leaflet.D3SvgOverlay) for inspiration.
-
-[![screenshot](/docs/img/Leaflet.PixiOverlay.png)](https://manubb.github.io/Leaflet.PixiOverlay/demo.html)
-
 ## doc例子部分：
 原始工程没有example.min.js源代码，可以这样替代：
 将头部
@@ -25,6 +19,14 @@ for drawing using WebGL that seamlessly falls back to HTML5's canvas if needed. 
     <script src="https://pixijs.download/v4.8.9/pixi.min.js"></script>
     <script src="js/L.PixiOverlay.js"></script>
 ```
+
+## Introduction
+
+An overlay class for [Leaflet](http://leafletjs.com), a JS
+library for interactive maps.  Allows drawing overlay using [Pixi.js](http://www.pixijs.com/), a JavaScript library
+for drawing using WebGL that seamlessly falls back to HTML5's canvas if needed. Thanks to [Leaflet.D3SvgOverlay](https://github.com/teralytics/Leaflet.D3SvgOverlay) for inspiration.
+
+[![screenshot](/docs/img/Leaflet.PixiOverlay.png)](https://manubb.github.io/Leaflet.PixiOverlay/demo.html)
 
 ## Features
 
